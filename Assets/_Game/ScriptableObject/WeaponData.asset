@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67082611cac7dbb44bad9a0b3028bc5d, type: 3}
+  m_Name: WeaponData
+  m_EditorClassIdentifier: 
+  weaponItems:
+  - name: Arrow
+    type: 2
+    cost: 100
+    ads: 1
+  - name: Hammer
+    type: 3
+    cost: 100
+    ads: 1
+  - name: Fire Axe
+    type: 4
+    cost: 150
+    ads: 2
+  - name: Two Blade Axe
+    type: 5
+    cost: 200
+    ads: 3
+  - name: Lolipop
+    type: 6
+    cost: 100
+    ads: 1
+  - name: Candy Stick
+    type: 7
+    cost: 150
+    ads: 2
+  - name: Ice Cream
+    type: 8
+    cost: 150
+    ads: 2
+  - name: Candy
+    type: 9
+    cost: 100
+    ads: 1
+  - name: Boomerang
+    type: 10
+    cost: 100
+    ads: 1
+  - name: Knife
+    type: 11
+    cost: 150
+    ads: 2
+  - name: Z
+    type: 12
+    cost: 200
+    ads: 3
