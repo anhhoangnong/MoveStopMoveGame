@@ -225,7 +225,14 @@ public class UserDataEditor : Editor
             userData.OnInitData();
             EditorUtility.SetDirty(userData);
         }
-
+        if (GUILayout.Button("Reset Data"))
+        {
+            if (EditorUtility.DisplayDialog("Reset Data", "Are you sure you want to reset all user data?", "Yes", "No"))
+            {
+                userData.OnResetData();
+                EditorUtility.SetDirty(userData);
+            }
+        }    
     }
 }
 

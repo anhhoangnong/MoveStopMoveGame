@@ -58,10 +58,6 @@ public class UIMainMenu : UICanvas
         anim.Play(ANIM_CLOSE);
     }
 
-
-
-   
-
     private void UpdateCoinDisplay()
     {
         if (txtCoin != null)
